@@ -4,11 +4,12 @@
             "path": "."
         }
     ],
-	"settings": {
-		"cSpell.words": [
-			"PYTHONPATH"
-		]
-	},
+    "settings": {
+        "cSpell.words": [
+            "pypackages",
+            "PYTHONPATH"
+        ]
+    },
     "launch": {
         "version": "0.2.0",
         "configurations": [
