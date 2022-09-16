@@ -96,8 +96,8 @@ class Bot(DiscordBot):
                     except HTTPException:
                         self.console.log(f'Error on delete {item_} from {item_.name}({item_.id}): HTTPException, Deleting the channel failed.')
                     else:
-                        self.console.log(f'Success on delete {item_} from {ctx.guild.name}({ctx.guild.id})')
-                self.console.log(f'Finished on {item} from {ctx.guild.name}({ctx.guild.id})')
+                        self.console.log(f'Success on delete {item_}({item_.id}) from {ctx.guild.name}({ctx.guild.id})')
+                self.console.log(f'Finished on delete {item} from {ctx.guild.name}({ctx.guild.id})')
             else:
                 self.console.log(f'Command argument: "item" error -> {item}')
 
